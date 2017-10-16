@@ -63,3 +63,21 @@ header h1 {
 .party-text {
   color: #34D1D1;
 }
+
+.view-code-section button {
+  background: #3F3244;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 300;
+  height: 55px;
+  width: 22%;
+}
+
+.view-code-section button:hover {
+  background: #FFFFFF;
+  border: 2px solid #3F3244;
+  color: #3F3244;
+  cursor: pointer;
+  transition: .5s;
+}
