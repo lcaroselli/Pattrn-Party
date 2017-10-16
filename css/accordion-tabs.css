@@ -1,3 +1,16 @@
+.accordion-tabs {
+  margin-left: 85px;
+}
+
+.accordion-title {
+  margin-left: 50px;
+}
+
+.accordion-title h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
 header {
   background: #2F2235;
   height: 60px;
@@ -6,15 +19,22 @@ header {
 
 header h1 {
   color: #FFFFFF;
+  display: inline-block;
   font-size: 25px;
   font-weight: 300;
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 50px;
+  padding-top: 15px;
+}
+
+.name-text p {
+  color: #FFFFFF;
+  float: right;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px 50px 0px 0px;
+  padding-top: 15px;
 }
 
 .party-text {
   color: #34D1D1;
-}
-
-.name-text {
-  color: #FFFFFF;
 }
