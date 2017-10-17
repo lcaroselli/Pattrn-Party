@@ -6,9 +6,11 @@
   border-left: 1px solid #D1D2D3;
   border-right: 1px solid #D1D2D3;
   border-bottom: 1px solid #D1D2D3;
+  display: flex;
   margin-left: 85px;
   margin-bottom: 40px;
   padding: 15px;
+  width: 75%;
 }
 
 .accordion-tabs {
@@ -87,6 +89,10 @@ header h1 {
 
 .party-text {
   color: #34D1D1;
+}
+
+.text-container {
+  padding: 30px;
 }
 
 .view-code-section {
