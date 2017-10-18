@@ -1,20 +1,14 @@
-.accordion-container {
-  width: 93%;
-}
-
 .accordion-section-container {
+  border-bottom: 1px solid #D1D2D3;
   border-left: 1px solid #D1D2D3;
   border-right: 1px solid #D1D2D3;
-  border-bottom: 1px solid #D1D2D3;
   display: flex;
-  margin-left: 85px;
   margin-bottom: 40px;
   padding: 15px;
 }
 
 .accordion-tabs {
   display: flex;
-  margin-left: 85px;
   margin-top: 80px;
 }
 
@@ -29,25 +23,32 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  max-width: 1000px;
 }
 
 .unselected-tab {
   background: #F2F2F2;
   border-bottom: 1px solid #D1D2D3;
   border-right: 2px solid #FFFFFF;
+  color: #666666;
+  font-weight: 300;
+}
+
+.unselected-tab:hover {
+  cursor: pointer;
 }
 
 .selected-tab {
   background: #FFFFFF;
-  border-top: 1px solid #D1D2D3;
+  border-bottom: none;
   border-left: 1px solid #D1D2D3;
   border-right: 1px solid #D1D2D3;
-  border-bottom: none;
+  border-top: 1px solid #D1D2D3;
+  font-weight: 600;
 }
 
 .accordion-tabs p {
   font-size: 20px;
-  font-weight: 600;
   text-align: center;
 }
 
@@ -120,4 +121,20 @@ header h1 {
   color: #3F3244;
   cursor: pointer;
   transition: .5s;
+}
+
+
+@media screen and (max-width: 1010px) {
+  .bottom-container {
+    max-width: none;
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+}
+
+@media screen and (max-width: 500px) {
+
 }
