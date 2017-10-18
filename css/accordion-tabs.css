@@ -171,7 +171,8 @@ header h1 {
     width: 100%;
   }
 
-  .accordion-tabs p {
+  .tab-span p {
+    font-size: 30px;
     margin-left: 30px;
   }
 
@@ -219,9 +220,14 @@ header h1 {
     margin: 0;
   }
 
-  .plus-minus {
+  .tab-1-plus, .tab-2-plus, .tab-3-plus, .tab-4-plus {
     display: inline-block;
     visibility: visible;
+  }
+
+  .mobile-1 hr, .mobile-2 hr, .mobile-3 hr, .mobile-4 hr {
+    background: black;
+    width: 80%;
   }
 
   .text-containr p {
