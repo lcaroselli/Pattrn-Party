@@ -21,17 +21,18 @@
         </section>
 
         <section class='bottom-container'>
-          <section class='accordion-tabs'>
-            <article class='tab-1 tab selected-tab'><p>Tab 1</p></article>
-            <article class='tab-2 tab unselected-tab'><p>Tab 2</p></article>
-            <article class='tab-3 tab unselected-tab'><p>Tab 3</p></article>
-            <article class='tab-4 tab unselected-tab'><p>Tab 4</p></article>
+          <section class='accordion-tabs' role='tabpanel'>
+            <article class='tab-1 tab selected-tab' aria-controls='panel1' role='tab'><p>Tab 1</p></article>
+            <article class='tab-2 tab unselected-tab' aria-controls='panel2' role='tab'><p>Tab 2</p></article>
+            <article class='tab-3 tab unselected-tab' aria-controls='panel3' role='tab'><p>Tab 3</p></article>
+            <article class='tab-4 tab unselected-tab' aria-controls='panel4' role='tab'><p>Tab 4</p></article>
           </section>
 
           <section class='accordion-sections'>
             <article class='accordion-section-container'>
               <article class='image-container'>
-                <img src='./assets/SampleImage.png' alt='Accordion tab image'>
+                <img class='horizontal-image' src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
+                <img class='vertical-image' src='./assets/SampleImage.png' alt='tab default image of a gray background with a simple x'>
               </article>
               <article class='text-container'>
                 <h4>Lorem ipsum dolor sit amet, consectetue</h4>

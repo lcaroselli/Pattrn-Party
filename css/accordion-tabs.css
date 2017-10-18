@@ -76,11 +76,16 @@ header h1 {
   padding-top: 15px;
 }
 
-.image-container img {
+.vertical-image {
   border: 1px solid #D1D2D3;
   height: 350px;
   margin-top: 20px;
   width: 300px;
+}
+
+.horizontal-image {
+  display: none;
+  visibility: hidden;
 }
 
 .name-text p {
@@ -132,9 +137,63 @@ header h1 {
 }
 
 @media screen and (max-width: 800px) {
-  
+  .accordion-section-container {
+    flex-direction: column;
+  }
+
+  .accordion-tabs {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .accordion-tabs article {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .accordion-tabs p {
+    margin-left: 30px;
+  }
+
+  .accordion-title {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .accordion-title hr {
+    width: 10%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .horizontal-image {
+    display: block;
+    border: 1px solid #D1D2D3;
+    height: 200px;
+    margin: 20px auto 0px auto;
+    visibility: visible;
+    width: 100%;
+  }
+
+  .unselected-tab {
+    border-left: 1px solid #D1D2D3;
+    border-right: 1px solid #D1D2D3;
+    border-top: 1px solid #D1D2D3;
+  }
+
+  .vertical-image {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media screen and (max-width: 500px) {
-
+  body {
+    background: red;
+  }
 }
