@@ -194,7 +194,7 @@ header h1 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 140px;
+    height: 170px;
   }
 
   header h1 {
@@ -223,6 +223,10 @@ header h1 {
   .tab-1-plus, .tab-2-plus, .tab-3-plus, .tab-4-plus {
     display: inline-block;
     visibility: visible;
+  }
+
+  .mobile-1, .mobile-2, .mobile-3, .mobile-4 {
+    background: #FFFFFF;
   }
 
   .mobile-1 hr, .mobile-2 hr, .mobile-3 hr, .mobile-4 hr {
@@ -259,10 +263,12 @@ header h1 {
   .view-code-section button {
     width: 95%;
   }
-}
 
-@media screen and (max-width: 500px) {
-  body {
-    background: red;
+  .selected-tab {
+    font-weight: 300;
+  }
+
+  .tab-title {
+    font-weight: 600;
   }
 }
