@@ -5,13 +5,18 @@
   width: 80%;
 }
 
+.card-title {
+  font-size: 20px;
+  margin: 10px;
+}
+
 .cc1, .cc2 {
   border: 1px solid #D1D2D3;
-  margin: 0px 1px 25px 1px;
+  margin: 0px 5px 25px 5px;
 }
 
 .cc1 {
-  width: 65%;
+  width: 63%;
 }
 
 .cc2 {
@@ -20,24 +25,25 @@
 
 .cc3, .cc4, .cc5 {
   border: 1px solid #D1D2D3;
-  margin: 0px 1px 25px 1px;
-  width: 32.4%;
+  margin: 0px 5px 25px 5px;
+  width: 31.2%;
 }
 
 .cc6, .cc7 {
   border: 1px solid #D1D2D3;
-  margin: 0px 1px 25px 1px;
+  margin: 0px 5px 25px 5px;
 }
 
 .cc6 {
-  width: 33%;
+  width: 32%;
 }
 
 .cc7 {
-  width: 65%;
+  width: 64%;
 }
 
 .card-image img {
+  border-top: 1px solid #D1D2D3;
   height: 200px;
   width: 100%;
 }
@@ -66,10 +72,5 @@
   .cards-title hr {
     margin-bottom: 60px;
     width: 10%;
-  }
-
-  .card-title {
-    font-size: 20px;
-    margin: 10px;
   }
 }
