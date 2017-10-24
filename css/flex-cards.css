@@ -41,3 +41,35 @@
   height: 200px;
   width: 100%;
 }
+
+.cards-title {
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.cards-title h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 750px) {
+  .cc1, .cc2, .cc3, .cc4, .cc5, .cc6, .cc7 {
+    display: block;
+    width: 100%;
+  }
+
+  .cards-title {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .cards-title hr {
+    margin-bottom: 60px;
+    width: 10%;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
