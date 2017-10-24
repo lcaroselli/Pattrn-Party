@@ -1,0 +1,43 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
+}
+
+.cc1, .cc2 {
+  border: 1px solid #D1D2D3;
+  margin: 0px 1px 25px 1px;
+}
+
+.cc1 {
+  width: 65%;
+}
+
+.cc2 {
+  width: 33%;
+}
+
+.cc3, .cc4, .cc5 {
+  border: 1px solid #D1D2D3;
+  margin: 0px 1px 25px 1px;
+  width: 32.4%;
+}
+
+.cc6, .cc7 {
+  border: 1px solid #D1D2D3;
+  margin: 0px 1px 25px 1px;
+}
+
+.cc6 {
+  width: 33%;
+}
+
+.cc7 {
+  width: 65%;
+}
+
+.card-image img {
+  height: 200px;
+  width: 100%;
+}
