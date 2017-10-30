@@ -1,0 +1,18 @@
+.header-title {
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.header-title h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.header-bar {
+  background: #D1D2D3;
+  color: #666666;
+  font-weight: 300;
+  height: 70px;
+  margin: 30px auto;
+  width: 80%;
+}
