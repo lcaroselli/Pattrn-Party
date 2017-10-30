@@ -58,9 +58,16 @@
   font-weight: 300;
 }
 
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 800px) {
   .cc1, .cc2, .cc3, .cc4, .cc5, .cc6, .cc7 {
     display: block;
+    width: 47.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cc1, .cc2, .cc3, .cc4, .cc5, .cc6, .cc7 {
     width: 100%;
   }
 
