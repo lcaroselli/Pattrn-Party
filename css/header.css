@@ -1,3 +1,14 @@
+.circle-x {
+  background-image: url(../assets/SampleImage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #666666;
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
 .header-title {
   margin-bottom: 70px;
   margin-left: 50px;
@@ -11,8 +22,30 @@
 .header-bar {
   background: #D1D2D3;
   color: #666666;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   font-weight: 300;
-  height: 70px;
+  height: 90px;
   margin: 30px auto;
   width: 80%;
+}
+
+.header-bar a {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.header-bar input {
+  -webkit-appearance: none;
+  background: #F2F2F2;
+  border: 1px solid #666666;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 300;
+  height: 35px;
+  width: 200px;
 }
