@@ -1,5 +1,53 @@
-body {
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0px;
+}
+
+header {
+  background: #2A0A49;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 20px;
+}
+
+header span {
+  color: #00B9F7;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.section-divider {
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: 25px;
+  font-weight: 300;
+  padding: 10px 0px 10px 20px;
+}
+
+.view-code-section button{
+  background-color: #2F2235;
+  color: #F2F2F2;
+  cursor: pointer;
+  display: block;
+  font-size: 25px;
+  height: 60px;
+  margin: 50px auto;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 450px;
 }

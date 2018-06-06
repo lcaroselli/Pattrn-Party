@@ -1,18 +1,19 @@
+// Accordion Tabs
 $('.tab').on('click', function() {
-  $('.tab').removeClass('selected-tab');
-  $('.tab').addClass('unselected-tab');
-  $(this).addClass('selected-tab');
+  $('.tab').removeClass('active');
+  $('.accordion-content').removeClass('active-tab');
+  $('.tab').addClass('nonactive');
+
+  $(this).removeClass('nonactive');
+  $(this).addClass('active');
+  $('.tab span').text('+');
+  $(this).find('span').text('-');
+  $(this).next().addClass('active-tab');
 })
 
-// //Mobile
-$('.plus').on('click', (e) => {
-  $(e.target).parent().siblings('.mobile-section').removeClass('hidden-info');
-  $(e.target).parent().siblings('.mobile-section').addClass('show-info');
-  $(e.target).siblings('.minus').addClass('show-info');
-});
 
-$('.minus').on('click', (e) => {
-  $(e.target).parent().siblings('.mobile-section').removeClass('show-info');
-  $(e.target).parent().siblings('.mobile-section').addClass('hidden-info');
-  $(e.target).removeClass('show-info');
-});
+// Navbar Menu
+/*$('.menu-btn').on('click', function() {
+  $('.nav-links-search').toggleClass('drop-down');
+  $('nav').toggleClass('move-btn');
+})*/

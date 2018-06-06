@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pattrn-Party</title>
+    <title>Pattern Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600'>
     <link rel='stylesheet' type='text/css' href='./css/accordion-tabs.css'>
@@ -13,227 +13,121 @@
 
   <body>
     <header>
-      <h1>PATTRN <span class='party-text'>PARTY</span></h1>
-      <hr>
-      <span class='name-text'><p>Laura Caroselli</p></span>
+      <h1>PATTERN <span class='party-text'>PORTFOLIO</span></h1>
     </header>
 
-    <main>
 <!-- Accordion Tabs -->
+    <h1 class='section-title'>Accordion Tabs</h1>
+    <hr class='section-divider'>
+
+    <main>
       <section class='accordion-container'>
-        <section class='accordion-title'>
-          <h2>Accordion Tabs</h2>
-          <hr>
-        </section>
+        <div class='active tab' id='tab-one'>Tab 1 <span>-</span></div>
 
-        <section class='bottom-container'>
-          <section class='accordion-tabs' role='tabpanel'>
-            <article class='tab-1 tab selected-tab' aria-controls='panel1' role='tab'>
-              <span class='tab-span'>
-                <p class='tab-title'>Tab 1</p>
-                <p class='plus-minus plus tab-1-plus'>+</p>
-                <p class='plus-minus minus tab-1-minus'>-</p>
-              </span>
-              <section class='hidden-info mobile-section mobile-1'>
-                <article>
-                  <article>
-                    <img class='horizontal-image' src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-                  </article>
-                  <article>
-                    <h4>Lorem ipsum dolor sit amet, consectetue</h4>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
-                  </article>
-                </article>
-              </section>
-            </article>
+        <article class='accordion-content active-tab' id='tab-one-content'>
+          <div class='accordion-image'>
+            <img src='assets/bears.jpg' alt='Bears'>
+          </div>
+          <div class='accordion-text'>
+            <h2 class='accordion-header'>Tab 1: Bear Pattern</h2>
+            <hr>
+            <p><b>This is bear text.</b> Soufflé lemon drops jelly beans halvah soufflé donut biscuit. Wafer sesame snaps sweet. Cake jelly cake marshmallow brownie fruitcake brownie sesame snaps lollipop. Chocolate bar gingerbread dessert chocolate bar bonbon macaroon. Topping chocolate bar toffee brownie. Dragée ice cream sugar plum croissant chocolate bar apple pie halvah pie powder. Jelly-o candy canes tootsie roll icing liquorice.</p>
+          </div>
+        </article>
 
-            <article class='tab-2 tab unselected-tab' aria-controls='panel2' role='tab'>
-              <span class='tab-span'>
-                <p class='tab-title'>Tab 2</p>
-                <p class='plus-minus plus tab-2-plus'>+</p>
-                <p class='plus-minus minus tab-2-minus'>-</p>
-              </span>
-              <section class='hidden-info mobile-section mobile-2'>
-                <article>
-                  <article>
-                    <img class='horizontal-image' src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-                  </article>
-                  <article>
-                    <h4>Lorem ipsum dolor sit amet, consectetue</h4>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
-                  </article>
-                </article>
-              </section>
-            </article>
+        <div class='nonactive tab' id='tab-two'>Tab 2 <span>+</span></div>
 
-            <article class='tab-3 tab unselected-tab' aria-controls='panel3' role='tab'>
-              <span class='tab-span'>
-                <p class='tab-title'>Tab 3</p>
-                <p class='plus-minus plus tab-3-plus'>+</p>
-                <p class='plus-minus minus tab-3-minus'>-</p>
-              </span>
-              <section class='hidden-info mobile-section mobile-3'>
-                <article>
-                  <article>
-                    <img class='horizontal-image' src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-                  </article>
-                  <article>
-                    <h4>Lorem ipsum dolor sit amet, consectetue</h4>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
-                  </article>
-                </article>
-              </section>
-            </article>
+        <article class='accordion-content' id='tab-two-content'>
+          <div class='accordion-image'>
+            <img src='assets/Toucans.jpg' alt='Toucans'>
+          </div>
+          <div class='accordion-text'>
+            <h2 class='accordion-header'>Tab 2: Toucan Pattern</h2>
+            <hr>
+            <p><b>This is toucan text.</b> Soufflé lemon drops jelly beans halvah soufflé donut biscuit. Wafer sesame snaps sweet. Cake jelly cake marshmallow brownie fruitcake brownie sesame snaps lollipop. Chocolate bar gingerbread dessert chocolate bar bonbon macaroon. Topping chocolate bar toffee brownie. Dragée ice cream sugar plum croissant chocolate bar apple pie halvah pie powder. Jelly-o candy canes tootsie roll icing liquorice.</p>
+          </div>
+        </article>
 
-            <article class='tab-4 tab unselected-tab' aria-controls='panel4' role='tab'>
-              <span class='tab-span'>
-                <p class='tab-title'>Tab 4</p>
-                <p class='plus-minus plus tab-4-plus'>+</p>
-                <p class='plus-minus minus tab-4-minus'>-</p>
-              </span>
-              <section class='hidden-info mobile-section mobile-4'>
-                <article>
-                  <article>
-                    <img class='horizontal-image' src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-                  </article>
-                  <article>
-                    <h4>Lorem ipsum dolor sit amet, consectetue</h4>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
-                  </article>
-                </article>
-              </section>
-            </article>
-          </section>
+        <div class='nonactive tab' id='tab-three'>Tab 3 <span>+</span></div>
 
-          <section class='accordion-sections'>
-            <article class='accordion-section-container'>
-              <article class='image-container'>
-                <img class='vertical-image' src='./assets/SampleImage.png' alt='tab default image of a gray background with a simple x'>
-              </article>
-              <article class='text-container'>
-                <h4>Lorem ipsum dolor sit amet, consectetue</h4>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
-              </article>
-            </article>
-          </section>
-        </section>
+        <article class='accordion-content' id='tab-three-content'>
+          <div class='accordion-image'>
+            <img src='assets/lemons.jpg' alt='Lemons'>
+          </div>
+          <div class='accordion-text'>
+            <h2 class='accordion-header'>Tab 3: Lemon Pattern</h2>
+            <hr>
+            <p><b>This is lemon text.</b> Soufflé lemon drops jelly beans halvah soufflé donut biscuit. Wafer sesame snaps sweet. Cake jelly cake marshmallow brownie fruitcake brownie sesame snaps lollipop. Chocolate bar gingerbread dessert chocolate bar bonbon macaroon. Topping chocolate bar toffee brownie. Dragée ice cream sugar plum croissant chocolate bar apple pie halvah pie powder. Jelly-o candy canes tootsie roll icing liquorice.</p>
+          </div>
+        </article>
 
-        <section class='view-code-section'>
-          <a href="https://github.com/lcaroselli/Pattrn-Party"><button type='button' name='button'>View Code</button></a>
-        </section>
+        <div class='nonactive tab' id='tab-four'>Tab 4 <span>+</span></div>
+
+        <article class='accordion-content' id='tab-four-content'>
+          <div class='accordion-image'>
+            <img src='assets/bird.jpg' alt='Birds'>
+          </div>
+          <div class='accordion-text'>
+            <h2 class='accordion-header'>Tab 4: Bird Pattern</h2>
+            <hr>
+            <p><b>This is bird text.</b> Soufflé lemon drops jelly beans halvah soufflé donut biscuit. Wafer sesame snaps sweet. Cake jelly cake marshmallow brownie fruitcake brownie sesame snaps lollipop. Chocolate bar gingerbread dessert chocolate bar bonbon macaroon. Topping chocolate bar toffee brownie. Dragée ice cream sugar plum croissant chocolate bar apple pie halvah pie powder. Jelly-o candy canes tootsie roll icing liquorice.</p>
+          </div>
+        </article>
       </section>
     </main>
 
-
-<!-- Flex Cards -->
-    <section class='flex-container'>
-      <section class='cards-title'>
-        <h2>Flexible Cards</h2>
-        <hr>
-      </section>
-
-      <section class='cards-container'>
-        <article class='full-card cc1'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 1</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-
-        <article class='full-card cc2'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 2</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-
-        <article class='full-card cc3'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 3</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-
-        <article class='full-card cc4'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 4</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-
-        <article class='full-card cc5'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 5</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-
-        <article class='full-card cc6'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 6</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-
-        <article class='full-card cc7'>
-          <article class='flex-top'>
-            <p class='card-title'>Card 7</P>
-          </article>
-          <article class='card-image'>
-            <img src='./assets/SampleImage2.png' alt='tab default image of a gray background with a simple x'>
-          </article>
-        </article>
-      </section>
-
-      <section class='view-code-section'>
-        <a href="https://github.com/lcaroselli/Pattrn-Party"><button type='button' name='button'>View Code</button></a>
-      </section>
+    <section class='view-code-section'>
+      <a href="https://github.com/lcaroselli/Pattrn-Party">
+        <button type='button' name='button'>View Code</button>
+      </a>
     </section>
 
-  <!-- Header Bar -->
-    <section class='header-container'>
-      <section class='header-title'>
-        <h2>Header Bar</h2>
-        <hr>
-      </section>
+<!-- Flexible Cards -->
+    <h1 class='section-title'>Flexible Cards</h1>
+    <hr class='section-divider'>
 
-      <article class='header-bar'>
-        <article class='circle-x'></article>
-        <nav>
-          <a href=''>Nav1</a>
-          <a href=''>Nav2</a>
-          <a href=''>Nav3</a>
-        </nav>
-        <input type='search' name='' placeholder='Search'>
+    <section class='card-container'>
+      <article class='card' id='card-one'>
+        <h2 class='card-heading'>Card 1</h2>
+        <div class='card-image'></div>
       </article>
 
-      <section class='view-code-section'>
-        <a href="https://github.com/lcaroselli/Pattrn-Party"><button type='button' name='button'>View Code</button></a>
-      </section>
+      <article class='card' id='card-two'>
+        <h2 class='card-heading'>Card 2</h2>
+        <div class='card-image'></div>
+      </article>
+
+      <article class='card' id='card-three'>
+        <h2 class='card-heading'>Card 3</h2>
+        <div class='card-image'></div>
+      </article>
+
+      <article class='card' id='card-four'>
+        <h2 class='card-heading'>Card 4</h2>
+        <div class='card-image'></div>
+      </article>
+
+      <article class='card' id='card-five'>
+        <h2 class='card-heading'>Card 5</h2>
+        <div class='card-image'></div>
+      </article>
+
+      <article class='card' id='card-six'>
+        <h2 class='card-heading'>Card 6</h2>
+        <div class='card-image'></div>
+      </article>
+
+      <article class='card' id='card-seven'>
+        <h2 class='card-heading'>Card 7</h2>
+        <div class='card-image'></div>
+      </article>
     </section>
 
+    <section class='view-code-section'>
+      <a href="https://github.com/lcaroselli/Pattrn-Party">
+        <button type='button' name='button'>View Code</button>
+      </a>
+    </section>
 
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src='script.js'></script>
