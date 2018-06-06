@@ -43,3 +43,36 @@
 
 
 /* Media Queries */
+@media screen and (max-width: 960px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 2fr 2fr; */
+  }
+
+  #card-seven {
+    grid-area: 4/2/5/3;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    height: 400px;
+  }
+
+  .card-heading {
+    height: 10%;
+  }
+
+  #card-one {
+    grid-area: 1/1/1/2
+  }
+
+  #card-seven {
+    grid-area: 7/1/7/2
+  }
+}

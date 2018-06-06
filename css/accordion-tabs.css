@@ -55,5 +55,27 @@
   width: 25%;
 }
 
-
 /* Media Queries */
+@media screen and (max-width: 1025px) {
+  .active-tab {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 85%;
+  }
+
+  .tab {
+    width: 21.25%;
+  }
+}
+
+/* @media screen and (max-width: 900px) {
+  .active-tab {
+    order: 0;
+  } */
+
+  /* .tab {
+    width: 21.25%;
+  } */
+}
