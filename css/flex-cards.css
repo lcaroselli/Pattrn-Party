@@ -1,0 +1,25 @@
+.card {
+  background: grey;
+  border: 2px solid blue;
+  height: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+#card-one, #card-seven {
+  width: 75%;
+}
+
+#card-two, #card-six {
+  width: 25%;
+}
+
+#card-three, #card-four, #card-five {
+  width: 33.33%
+}
