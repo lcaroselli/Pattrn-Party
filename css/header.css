@@ -17,6 +17,10 @@ nav {
   width: 80%;
 }
 
+nav hr {
+  display: none;
+}
+
 nav span {
   align-items: center;
   background: #F2F2F2;
@@ -43,4 +47,28 @@ nav span p {
   height: 28px;
   margin: 0px 10px;
   width: 28px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 950px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  nav a {
+    font-size: 30px;
+  }
+
+  nav hr {
+    display: block;
+    margin: 10px;
+    width: 80%;
+  }
+
+  nav span {
+    width: 100%;
+  }
 }
